@@ -114,7 +114,7 @@ titles = html.xpath("//div[@class='title']/h3/a/text()")
 ```py
 # 配置selenium
 from selenium import webdriver
-driver = webdriver.Chrome("/home/toohoo/Desktop/chromedriver_linux64/chromedriver")
+driver = webdriver.Chrome()
 driver.get(request_url)
 ```
 - 3、接着就是启动程序，调用之前定义好的下载图片的函数，完整代码如下：
