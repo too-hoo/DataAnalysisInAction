@@ -2,4 +2,5 @@
 .venv/*
 Pipfile.lock
 .DS_Store
-#40/creditcard.csv
+# 文件太大144M(>100M)，忽略吧
+lesson40/creditcard.csv 
