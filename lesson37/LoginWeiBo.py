@@ -16,8 +16,8 @@ def weibo_login(username, password):
      browser.find_element_by_id("loginAction").click()
      time.sleep(1)
 # 设置用户名、密码
-username = '15218218255'
-password = "Wb13414851554"
+username = 'username'
+password = "********"
 weibo_login(username, password)
 
 
